@@ -1,11 +1,7 @@
 {
   "entryPagePath": "pages/tab1/index",
   "themeLocation": "theme.json",
-  "pages": [
-    "pages/tab1/index",
-    "pages/tab2/index",
-    "pages/page/index"
-  ],
+  "pages": ["pages/tab1/index", "pages/tab2/index", "pages/page/index"],
   "tabBar": {
     "custom": true,
     "color": "@tabFontColor",
@@ -46,8 +42,7 @@
     "downloadFile": 60000
   },
   "dependencies": {
-    "TYKit":"2.0.4",
-    "BaseKit":"2.0.3",
-    "MiniKit":"2.0.3"
+    "base-kit": "2.1.2",
+    "mini-kit": "2.3.0"
   }
 }
