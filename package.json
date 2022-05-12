@@ -1,10 +1,6 @@
 {
   "name": "miniprogram",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@tuya-miniapp/BaseKit": "latest",
     "@tuya-miniapp/MiniKit": "latest",
