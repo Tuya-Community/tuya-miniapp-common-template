@@ -1,0 +1,53 @@
+{
+  "entryPagePath": "pages/tab1/index",
+  "themeLocation": "theme.json",
+  "pages": [
+    "pages/tab1/index",
+    "pages/tab2/index",
+    "pages/page/index"
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "@tabFontColor",
+    "backgroundColor": "@tabBgColor",
+    "selectedColor": "@tabSelectedColor",
+    "borderStyle": "@tabBorderStyle",
+    "list": [
+      {
+        "pagePath": "pages/tab1/index",
+        "text": "Tab1",
+        "iconPath": "@iconPath1",
+        "selectedIconPath": "@selectedIconPath1"
+      },
+      {
+        "pagePath": "pages/tab2/index",
+        "text": "Tab2",
+        "iconPath": "@iconPath2",
+        "selectedIconPath": "@selectedIconPath2"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "@navBgColor",
+    "navigationBarTextStyle": "@navTxtStyle",
+    "navigationBarTitleText": "miniprogram",
+    "backgroundColor": "@bgColor",
+    "backgroundTextStyle": "@bgTxtStyle",
+    "backgroundColorTop": "@bgColorTop",
+    "backgroundColorBottom": "@bgColorBottom",
+    "enablePullDownRefresh": false,
+    "onReachBottomDistance": 50,
+    "pageOrientation": "portrait"
+  },
+  "networkTimeout": {
+    "request": 60000,
+    "connectSocket": 60000,
+    "uploadFile": 60000,
+    "downloadFile": 60000
+  },
+  "dependencies": {
+    "TYKit":"2.0.4",
+    "BaseKit":"2.0.3",
+    "MiniKit":"2.0.3"
+  }
+}
