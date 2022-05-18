@@ -1,9 +1,8 @@
 {
-  "navigationBarTextStyle": "black",
-  "navigationBarTitleText": "Tab1",
+  "navigationBarTextStyle": "@navTxtStyle",
+  "navigationBarTitleText": "Page",
   "backgroundColor": "#F8F8F8",
   "backgroundTextStyle": "dark",
   "enablePullDownRefresh": true,
-  "usingComponents": {
-  }
+  "usingComponents": {}
 }

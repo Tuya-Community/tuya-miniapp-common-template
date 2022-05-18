@@ -1,10 +1,6 @@
 {
   "name": "miniprogram",
   "version": "1.0.0",
-  "dependencies": {
-    "@tuya-miniapp/BaseKit": "latest",
-    "@tuya-miniapp/MiniKit": "latest",
-    "@tuya-miniapp/TYKit": "latest"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
