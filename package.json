@@ -1,5 +1,5 @@
 {
-  "name": "miniprogram",
+  "name": "@tuya-materials/tuya-miniapp-common-template",
   "version": "1.0.0",
   "dependencies": {},
   "devDependencies": {}
