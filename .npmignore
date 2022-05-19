@@ -1,5 +1,4 @@
 LICENSE
-README.md
-README_cn.md
 CHANGELOG.md
-.github
+.versionrc.json
+.github/
