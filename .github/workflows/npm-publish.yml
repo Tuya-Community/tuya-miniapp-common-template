@@ -41,5 +41,7 @@ jobs:
           echo "\npackage name: $PKG\n"
           curl -X PUT  https://registry-direct.npmmirror.com/$PKG/sync\?sync_upstream\=true
           sleep 5
-          echo "\nhttps://registry.npmmirror.com/$PKG\n"
-          echo "\nhttps://npmmirror.com/$PKG\n"
+          printf "\n"
+          echo "https://registry.npmmirror.com/$PKG"
+          printf "\n"
+          echo "https://npmmirror.com/$PKG"
