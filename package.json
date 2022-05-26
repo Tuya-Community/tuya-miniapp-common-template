@@ -1,6 +1,6 @@
 {
   "name": "@tuya-materials/tuya-miniapp-common-template",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "scripts": {
     "lint": "eslint --ext .js pages",
     "format": "prettier --write pages i18n"
