@@ -15,6 +15,8 @@ module.exports = {
     getApp: 'readonly',
     getCurrentPages: 'readonly',
     ty: 'readonly',
+    I18n: 'readonly',
+    Behavior: 'readonly'
   },
   rules: {},
 }
