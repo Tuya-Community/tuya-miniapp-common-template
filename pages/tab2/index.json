@@ -3,6 +3,6 @@
   "navigationBarTitleText": "Tab2",
   "backgroundColor": "#F8F8F8",
   "backgroundTextStyle": "dark",
-  "enablePullDownRefresh": true,
+  "enablePullDownRefresh": false,
   "usingComponents": {}
 }
